@@ -7,8 +7,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+    
     internal class ListViewIC : IComparer
     {
+        int i;
         private int _columIndex;
         public int ColumnIndex
         {
